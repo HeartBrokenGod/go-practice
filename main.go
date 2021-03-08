@@ -1,7 +1,9 @@
 package main
 
-import "git-workspace/go-practice/mayuresh"
+import (
+	"git-workspace/go-practice/mayuresh"
+)
 
 func main() {
-	mayuresh.TestMyCode()
+	mayuresh.SliceUsingNew()
 }

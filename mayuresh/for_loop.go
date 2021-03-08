@@ -41,8 +41,6 @@ func RangeLoop() {
 	fmt.Println("Using ", y)
 
 	for k, v := range y {
-		fmt.Println(k,v)
+		fmt.Println(k, v)
 	}
 }
-
-

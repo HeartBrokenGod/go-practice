@@ -43,3 +43,15 @@ func FallThroughSwitch() {
 		fmt.Println("3")
 	}
 }
+
+func SwitchAsTypeAssertions() {
+	var i interface{} = 5
+	switch v := i.(type) {
+	case int:
+		fmt.Println("Its an int: ", v)
+	case string:
+		fmt.Println("Its a string: ", v)
+	default:
+		fmt.Println("Don't know about type")
+	}
+}
