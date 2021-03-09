@@ -1,7 +1,8 @@
-package neel
+package main
+
 import "fmt"
 
-func Loops(){
+func Loops() {
 	i := 0
 
 	//	while loop
@@ -12,19 +13,16 @@ func Loops(){
 
 	//	do while loop
 	for {
-		fmt.Println("do while i = ",i)
-		if(i>10){
+		fmt.Println("do while i = ", i)
+		if i > 10 {
 			continue
 		}
 		break
 	}
 
-
 	//	for loop
-	for i = 0; i< 10; i++{
-		fmt.Println("for i = ",i)
+	for i = 0; i < 10; i++ {
+		fmt.Println("for i = ", i)
 	}
-
-
 
 }
