@@ -1,0 +1,8 @@
+1. new() function
+Memory returned by new() is zeroed.
+new() only returns pointers to initialized memory.
+new() works for all the data types (except channel, map), and dynamically allocates space for a variable of that type and initialized it to zero value of that type and return a pointer to it.
+
+2. make() func
+make() only makes slices, maps, and channels. make returns value of type T(data type) not *T
+
