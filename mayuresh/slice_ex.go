@@ -7,13 +7,13 @@ func SliceLenAndCap() {
 
 	fmt.Println("Initial len and cap: ", len(x), cap(x))
 
-	x = append(x, 1,2,3,4,5,6)
+	x = append(x, 1, 2, 3, 4, 5, 6, 7, 8, 90)
 
-	fmt.Println("Append {1,2,3,4,5,6} ==> len and cap: ", len(x), cap(x))
+	fmt.Println("Append {1,2,3,4,5,6} ==> len and cap: ", x, len(x), cap(x))
 
 	x = append(x, 8,9,7)
 
-	fmt.Println("Again append {7,8,9} len and cap: ", len(x), cap(x))
+	fmt.Println("Aga in append {7,8,9} len and cap: ", x, len(x), cap(x))
 
 	/* Initial len and cap:  4 5
 	Append {1,2,3,4,5,6}  ==> len and cap:  10 10  
@@ -34,3 +34,4 @@ func SliceUsingNew() {
 
 	fmt.Println(slice)
 }
+
